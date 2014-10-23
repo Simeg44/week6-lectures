@@ -1,0 +1,14 @@
+{
+  "name": "node-colors",
+  "version": "0.0.0",
+  "description": "",
+  "main": "colorutil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "request": "~2.45.0"
+  }
+}

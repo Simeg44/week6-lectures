@@ -1,0 +1,6 @@
+{
+  "name": "npm-examples",
+  "dependencies": {
+    "underscore": "~1.7.0"
+  }
+}

@@ -1,0 +1,26 @@
+extends layout
+
+
+block content
+	h1 Hello Boulder! #{title}
+	h3= title
+	div(id=title, data-title=title) This div has a data attribute
+	a(href="/about") About Page
+	div.something(class=title)
+		ul
+			li
+				a(href="http://google.com") Google.com
+	ul
+		for library in libraries
+			//- li=library
+			li My favorite library is #{library}
+
+block footer
+	h3#the-h3.my-class  This is the footer
+	p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+		| optio rem <em>exercitationem</em> quidem tempore doloribus ea porro! 
+		| Hic laborum assumenda sequi aliquid illum ut eaque nisi culpa. Autem, accusamus, impedit.
+	p.
+		This is 
+		all <strong>text</strong>
+		contained in a P
